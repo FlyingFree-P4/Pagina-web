@@ -1,0 +1,71 @@
+*{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+header img{
+    width: 10%;
+    
+}
+
+/*Estils dels iconos*/
+.fa{
+    padding: 1%;
+    font-size: 1.8em;
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+    margin: 1%;
+    
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/*Estils Slideshow*/
+.mySlides {
+    display: none;
+}
+.slideshow-container {
+    position: relative;
+}
+.slideshow-container img{
+    width: 1200px;
+    height: 570px;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

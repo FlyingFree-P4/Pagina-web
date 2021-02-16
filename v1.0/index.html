@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+   <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Inici</title>
+</head>
+<body>
+    <header>
+    <img src="./img/logo.png" alt="Logo">
+        <nav>
+            <a class="inici" href="index.html">Inici</a>
+            <a href="vols.html">Vols</a>
+            <a href="hotels.html">Hotels</a>
+            <a href="restaurants.html">Restaurants</a>
+            <a href="excurcions.html">Excurcions</a>
+            <div class="user">
+                <a href="login.html">Login</a>
+                <a class="reg" href="registre.html">Registra't</a>
+            </div>
+        </nav>   
+    </header>
+    <section>
+        <article class="slidshow">
+            <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/001.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/002.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/003.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/004.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/005.png">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/006.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/007.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/Slidshow/008.jpg">
+                        </div>
+
+                    </div>
+                    <div class="info-slideshow">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit laboriosam est quo ab voluptatibus nostrum perspiciatis eveniet earum saepe asperiores sapiente, itaque ad obcaecati pariatur nobis iure maiores. Explicabo, error.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit laboriosam est quo ab voluptatibus nostrum perspiciatis eveniet earum saepe asperiores sapiente, itaque ad obcaecati pariatur nobis iure maiores. Explicabo, error.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit laboriosam est quo ab voluptatibus nostrum perspiciatis eveniet earum saepe asperiores sapiente, itaque ad obcaecati pariatur nobis iure maiores. Explicabo, error.</p>
+                        
+                    </div>
+        </article>
+           
+    </section>
+    <footer>
+        <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+    </footer>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4000);
+        }
+
+    </script>
+</body>
+</html>
