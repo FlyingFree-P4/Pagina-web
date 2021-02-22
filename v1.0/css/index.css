@@ -1,17 +1,71 @@
 *{
-    background-color: black;
     font-family: Arial, sans-serif;
     color: white;
+    margin: 0px;
+    padding: 0px;
     
 }
 body{
-    width: 80%;
-    margin: 0 auto;
+    background-color: black;
     text-align: center;
-}
+    }
 header img{
     width: 10%;
-    
+    float: left;
+    margin-left: 15px;   
+}
+.menu{
+  width: 100%;
+  list-style-type: none; 
+}
+
+.menu li{
+  float: left;
+  font-weight: bold;
+  margin-left: 120px auto;
+  height: 10px;
+  display: inline-block;
+  width: 200px;
+}
+
+.menu a{
+  margin-top: 40px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  background-color: #111;
+}
+
+.logreg li{
+  float: right;
+  display: block;
+  margin-top: 90px;
+}
+
+.logreg li a{
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav{
+  width: 85%;
+}
+
+aside{
+  margin-top: -30px;
+  background: white;
+  width: 9%;
+  float: right;
+  margin-right: 20px;
+  border-radius: 20px;
+  height: 130px;
 }
 
 /*Estils dels iconos*/
